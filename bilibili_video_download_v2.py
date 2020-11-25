@@ -213,7 +213,7 @@ if __name__ == '__main__':
         cid_list = data['pages']
     # print(cid_list)
     for item in cid_list:
-        cid = str(item['cid'])
+        cid = str(item['cid'])  # item is json dictionary
         title = item['part']
         title = re.sub(r'[\/\\:*?"<>|]', '', title)  # 替换为空的
         print('[下载视频的cid]:' + cid)
