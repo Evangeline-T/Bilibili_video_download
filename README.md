@@ -1,3 +1,8 @@
+创建新的下载py：bilibili_video_download_v4.py
+> **基于v3版本， 减去“合并视频功能”，用requests代替urllib, 下载进度条用tqdm<br>**
+> **视频全部放在一个文件夹里面。可以查看文件夹中已经下载的文件判定继续进行下载**
+
+
 Bilibili(b站)视频下载 ![enter image description here](Pic/logo.png)
 ===========================
 ![](https://img.shields.io/badge/Python-3.6.3-green.svg) ![](https://img.shields.io/badge/requests-2.18.4-green.svg) ![](https://img.shields.io/badge/moviepy-0.2.3.2-green.svg)
